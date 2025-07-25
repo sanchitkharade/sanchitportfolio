@@ -36,7 +36,7 @@ export default function Portfolio() {
       <header className="sticky top-0 z-50 bg-[#0f0f0f]/80 backdrop-blur-md border-b border-purple-900 shadow-md">
         <div className="max-w-6xl mx-auto flex justify-between items-center px-4 py-4">
           <h1 className="text-2xl font-extrabold text-pink-500 tracking-wide hover:scale-110 cursor-pointer">SK</h1>
-          <nav className="space-x-6 text-sm md:text-base font-medium">
+          <nav className="lg:space-x-6 text-xs space-x-2 lg:text-base lg:font-medium">
             <a href="#about" className="text-gray-300 hover:text-pink-500 transition">About</a>
             <a href="#education" className="text-gray-300 hover:text-pink-500 transition">Education</a>
             <a href="#projects" className="text-gray-300 hover:text-pink-500 transition">Projects</a>
@@ -47,12 +47,12 @@ export default function Portfolio() {
       </header>
 
      {/* Hero Section */}
-      <section className="relative min-h-screen flex flex-col md:flex-row items-center justify-center  ">
+      <section className="relative min-h-screen flex  md:flex-row lg:flex-row flex-col-reverse  justify-center items-center">
         <motion.div whileHover={{ scale: 1.1 }}
-          className="w-full md:w-1/2  pl-56 cursor-pointer"
+          className="lg:w-1/2  lg:pl-56 cursor-pointer pl-5 ml-0 w-3/4"
         >
-          <h1 className="text-4xl md:text-5xl font-bold tracking-widest font-mono">Sanchit Kharade</h1>
-          <p className="text-xl md:text-2xl mt-3 text-pink-500 font-mono min-h-[2rem]">
+          <h1 className="text-xl lg:text-5xl font-bold tracking-widest font-mono">Sanchit Kharade</h1>
+          <p className="text-xl lg:text-2xl mt-3 text-pink-500 font-mono min-h-[2rem]">
             {typedText}<span className="animate-pulse">|</span>
           </p>
           <div className="flex justify-start space-x-6 mt-6">
@@ -60,20 +60,20 @@ export default function Portfolio() {
             <a href="https://github.com/sanchitkharade" target="_blank"><IconBrandGithub size={24} className='hover:scale-120 hover:text-purple-400'/></a>
             <a href="https://linkedin.com/in/sanchit-kharade" target="_blank"><IconBrandLinkedin size={24} className='hover:scale-120 hover:text-purple-400'/></a>
           </div>
-          <a href="https://drive.google.com/file/d/1d45GXHU9z9TG-XFC19wR2cJkl-_BcNCW/view?usp=drive_link" target="_blank" className="mt-6 inline-block px-6 py-2 bg-pink-500 hover:bg-purple-600 rounded-full shadow">
+          <a href="https://drive.google.com/file/d/1d45GXHU9z9TG-XFC19wR2cJkl-_BcNCW/view?usp=drive_link" target="_blank" className="mt-6 inline-block lg:px-6 px-3 !text-black text-sm lg:text-md py-2 bg-pink-500 hover:bg-purple-600 rounded-full shadow">
             View Resume
           </a>
         </motion.div>
 
         <motion.div
-          className=" md:w-1/2 flex justify-center pr-48"
+          className="lg:w-1/2 flex justify-center lg:pr-48"
         >
           <Image
             src="/tsm.png"
             alt="Profile"
-            width={500}
+            width={270}
             height={300}
-            className='scale-x-110'
+            className='lg:scale-x-110 lg:w-200 lg:h-200'
           />
           
         </motion.div>
@@ -94,7 +94,7 @@ export default function Portfolio() {
             I have worked on live projects during internships at <span className="text-pink-500">GreenGenX</span> and <span className="text-pink-500">CodSoft</span>, focusing on performance and user experience.
             I am currently pursuing a B.E. in Computer Engineering and enjoy problem-solving, backend logic, and clean UI design.
           </motion.div>
-          <motion.div whileHover={{ scale: 1.1 }} className="rounded-xl overflow-hidden shadow-lg pl-28">
+          <motion.div whileHover={{ scale: 1.1 }} className="rounded-xl overflow-hidden flex justify-center pt-3 px-12 shadow-lg lg:pl-28">
             <Image
               src="/img.png"
               alt="Coding"
