@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "@tabler/icons-react": "^3.34.1",
+<<<<<<< HEAD
     "framer-motion": "^12.23.9",
+=======
+>>>>>>> 45c275c (first commit)
     "next": "15.4.4",
     "react": "19.1.0",
     "react-dom": "19.1.0"
