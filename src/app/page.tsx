@@ -60,7 +60,7 @@ export default function Portfolio() {
             <a href="https://github.com/sanchitkharade" target="_blank"><IconBrandGithub size={24} className='hover:scale-120 hover:text-purple-400'/></a>
             <a href="https://linkedin.com/in/sanchit-kharade" target="_blank"><IconBrandLinkedin size={24} className='hover:scale-120 hover:text-purple-400'/></a>
           </div>
-          <a href="https://drive.google.com/file/d/1d45GXHU9z9TG-XFC19wR2cJkl-_BcNCW/view?usp=drive_link" target="_blank" className="mt-6 inline-block lg:px-6 px-3 !text-black text-sm lg:text-md py-2 bg-pink-500 hover:bg-purple-600 rounded-full shadow">
+          <a href="https://drive.google.com/file/d/1D3lsmB3OU5MZRWGTZGoSsiHval6QI0Bp/view?usp=drive_link" target="_blank" className="mt-6 inline-block lg:px-6 px-3 !text-black text-sm lg:text-md py-2 bg-pink-500 hover:bg-purple-600 rounded-full shadow">
             View Resume
           </a>
         </motion.div>
